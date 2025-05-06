@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtualenv
+.env
+.venv
+env/
+venv/
+
+# Editor and system files
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+*.iml
+.project
+
+# Jenkins Job Builder
+jenkins.ini
+*.job
+output/
+
+# Maven (Uncomment if you use Maven for any utilities)
+# target/
