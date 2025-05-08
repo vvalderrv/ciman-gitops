@@ -1,4 +1,3 @@
-cat Dockerfile.sidecar 
 FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -16,8 +15,7 @@ RUN wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
 
 RUN pip3 install --no-cache-dir lftools
 
-COPY scripts/ /app/scripts/
-COPY jenkins-configs/ /app/jenkins-configs/
+COPY jenkins-config/ /app/jenkins-config/
 COPY crontab /etc/cron.d/jcasc-cron
 COPY entrypoint.sh /app/entrypoint.sh
 
@@ -27,4 +25,4 @@ RUN chmod +x /app/entrypoint.sh && \
 WORKDIR /app
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["cron", "-f"]
+CMD ["cron", "-
