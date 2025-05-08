@@ -25,4 +25,4 @@ RUN chmod +x /app/entrypoint.sh && \
 WORKDIR /app
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["cron", "-
+CMD ["cron", "-f"]
