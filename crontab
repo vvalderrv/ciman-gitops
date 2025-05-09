@@ -1,2 +1,0 @@
-# crontab
-*/5 * * * * /app/entrypoint.sh generate_jcasc >> /var/log/cron.log 2>&1
