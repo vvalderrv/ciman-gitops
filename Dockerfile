@@ -1,5 +1,5 @@
 # Use a Jenkins LTS (Long Term Support) image as the base
-FROM jenkins/jenkins:2.440.3-jdk17
+FROM jenkins/jenkins:lts-jdk17
 
 # Switch to root user to install plugins and tools
 USER root
