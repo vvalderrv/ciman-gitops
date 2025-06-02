@@ -131,7 +131,7 @@ mina-sshd-api-common:2.15.0-161.vb_200831a_c15b_
 mina-sshd-api-core:2.15.0-161.vb_200831a_c15b_
 mina-sshd-api-scp:2.15.0-161.vb_200831a_c15b_
 node-iterator-api:72.vc90e81737df1
-nodejs:1.6.0
+nodejs:1.6.4
 nodelabelparameter:759.vb_b_e95db_f3251
 nvm-wrapper:0.1.7
 oic-auth:4.494.v6b_f419104767
